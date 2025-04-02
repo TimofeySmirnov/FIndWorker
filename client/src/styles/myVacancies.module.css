@@ -1,0 +1,29 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px;
+}
+
+.vacancyContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    gap: 10px;
+}
+
+.titlesFromVacancies{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

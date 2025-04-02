@@ -1,0 +1,62 @@
+@import "fonts.css";
+
+.footer-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    background-color: #343434;
+    color: white;
+    font-family: "InriaSans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.links{
+    color: white;
+}
+.footer-element {
+    text-align: center;
+}
+.footer-FW{
+    grid-column-start: 1;
+    grid-row-start: 1;
+
+}
+.applicant{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.mobile{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.social{
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+}
+.social img{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+.years{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    text-align: left;
+    position: relative;
+    left: -42px;
+}
+
+.QR{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.QR img{
+    height: 100px;
+    width: 100px;
+}

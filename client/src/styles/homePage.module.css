@@ -1,0 +1,32 @@
+.homePage{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popularVacancies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.popularPositions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.popularEmployee{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,37 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 5px;
+    align-content: space-between;
+    width: 100vw;
+}
+
+.mainContainer{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+.dataContainer {
+    width: 70%;
+}
+
+.titlesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.menuItem{
+    cursor: pointer;
+}
+
+.menuItem:hover{
+    color: cornflowerblue;
+}

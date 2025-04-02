@@ -1,0 +1,58 @@
+@import "fonts.css";
+
+.header {
+
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+}
+.Header-container{
+    display: flex;
+    align-items: center;
+    background: #333;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "InriaSans", sans-serif;
+    color: white;
+
+}
+.header-logo{
+    justify-content: left;
+    align-items: center;
+    width: 80px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-human{
+    width: 70px;
+    height: 70px;
+    background-image: url('../../public/images/human-white.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100px; /* Смещение вниз от кнопки */
+    right: 0;
+    width: 150px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.item{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.positionCard{
+    display: inline-block;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: black 1px solid;
+    width: 200px;
+    height: 80px;
+    gap: 10px;
+    cursor: pointer;
+}

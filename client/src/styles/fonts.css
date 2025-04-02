@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "InriaSans";
+    src: url(../../public/fonts/InriaSans-Light.woff2);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "InriaSans";
+    src: url(../../public/fonts/InriaSans-Bold.woff2);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "InriaSans";
+    src: url(../../public/fonts/InriaSans-Regular.woff2);
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+}

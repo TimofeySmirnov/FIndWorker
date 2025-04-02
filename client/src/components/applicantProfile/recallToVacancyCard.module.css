@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: lightgrey;
+    border-radius: 10px;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.bigItem{
+    flex: 1.25;
+    text-align: center;
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+}

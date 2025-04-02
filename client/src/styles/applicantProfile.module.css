@@ -1,0 +1,65 @@
+.ApplicantProfile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.updateContainer {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainData{
+    text-align: start;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 40px;
+}
+
+.recallsTitle{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 40px;
+    align-self: start;
+}
+
+.recallsContainer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row: 3;
+    border: 1px solid black;
+    margin: 20px;
+}
+.recallsTitles{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.recallsContent{
+    box-sizing: border-box;
+    display: inline-flex;
+    align-self: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+

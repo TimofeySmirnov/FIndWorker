@@ -1,0 +1,49 @@
+.vacancyPage {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.vacancyField{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+
+.needsResume{
+    color: forestgreen;
+    border: forestgreen 2px solid;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.otherParams{
+    color: grey;
+    border: grey 2px solid;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.vacancyParams{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.employeeField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 40px 10px 20px 10px;
+}

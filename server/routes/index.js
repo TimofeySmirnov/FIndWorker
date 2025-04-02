@@ -1,0 +1,26 @@
+const express = require('express')
+const router = express.Router()
+const applRoute = require('./applicantRouter')
+const employeeRoute = require('./employeeRouter')
+const vacancyRoute = require('./vacancyRoter')
+const resumeRoute = require('./resumeRouter')
+const adminRoute = require('./adminRouter')
+const feedbacksRoute = require('./feedbacksRouter')
+const positionRoute = require('./positionRouter')
+const recallRoute = require('./recallsRouter')
+const notificationsRoute = require('./notificationRouter')
+const filtersRoute = require('./filtersRouter')
+
+
+router.use('/applicant', applRoute)
+router.use('/employee', employeeRoute)
+router.use('/admin', adminRoute)
+router.use('/vacancies', vacancyRoute)
+router.use('/resume', resumeRoute)
+router.use('/feedback', feedbacksRoute)
+router.use('/position', positionRoute)
+router.use('/recalls', recallRoute)
+router.use('/notifications', notificationsRoute)
+router.use('/filters', filtersRoute)
+
+module.exports = router;
