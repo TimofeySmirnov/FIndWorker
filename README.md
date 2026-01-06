@@ -30,7 +30,6 @@
 ### Frontend:
 - React
 - JavaScript
-- SCSS
 - Axios
 - MobX
 
