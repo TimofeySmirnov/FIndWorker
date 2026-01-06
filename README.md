@@ -47,11 +47,15 @@
 ## Запуск приложения:
 
 ### Backend:
+```bash
 - cd server
 - npm i
 - npm run dev
+```
 
 ### Frontend:
+```bash
 - cd client
 - npm i
 - npm run dev
+```
