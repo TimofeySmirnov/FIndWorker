@@ -30,7 +30,10 @@ Backend:
 DB:
 - PostgreSql
 
+---
+
 *Запуск приложения:*
+
 Backend:
 - cd server
 - npm i
